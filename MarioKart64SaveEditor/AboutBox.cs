@@ -10,7 +10,7 @@ namespace MarioKart64SaveEditor
       public AboutBox()
       {
          var thanks = "Special thanks to :\r\n" +
-            "  \u2022 shygoo for Mario Kart 64 documentation\r\n" +
+            "  \u2022 shygoo for Mario Kart 64 documentation and testing\r\n" +
             "  \u2022 abney317 for MK64 EEPROM notes\r\n" +
             "  \u2022 mib_f8sm9c for the MK64 Pitstop";
          InitializeComponent();
