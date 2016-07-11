@@ -104,7 +104,7 @@
             "Bowser"});
          this.comboCharacter.Location = new System.Drawing.Point(177, 3);
          this.comboCharacter.Name = "comboCharacter";
-         this.comboCharacter.Size = new System.Drawing.Size(80, 21);
+         this.comboCharacter.Size = new System.Drawing.Size(60, 21);
          this.comboCharacter.TabIndex = 5;
          this.comboCharacter.SelectedIndexChanged += new System.EventHandler(this.comboCharacter_SelectedIndexChanged);
          // 
@@ -129,7 +129,7 @@
          this.Controls.Add(this.labelSecond);
          this.Controls.Add(this.labelMinute);
          this.Name = "TimeControl";
-         this.Size = new System.Drawing.Size(260, 28);
+         this.Size = new System.Drawing.Size(239, 28);
          ((System.ComponentModel.ISupportInitialize)(this.numericMinute)).EndInit();
          ((System.ComponentModel.ISupportInitialize)(this.numericSecond)).EndInit();
          ((System.ComponentModel.ISupportInitialize)(this.numericCentisecond)).EndInit();

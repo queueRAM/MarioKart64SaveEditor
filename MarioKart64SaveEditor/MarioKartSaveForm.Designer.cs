@@ -48,12 +48,6 @@
          System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MarioKartSaveForm));
          this.groupBoxRecords = new System.Windows.Forms.GroupBox();
          this.labelTrackName = new System.Windows.Forms.Label();
-         this.timeControlLap = new MarioKart64SaveEditor.TimeControl();
-         this.timeControl5th = new MarioKart64SaveEditor.TimeControl();
-         this.timeControl4th = new MarioKart64SaveEditor.TimeControl();
-         this.timeControl3rd = new MarioKart64SaveEditor.TimeControl();
-         this.timeControl2nd = new MarioKart64SaveEditor.TimeControl();
-         this.timeControl1st = new MarioKart64SaveEditor.TimeControl();
          this.listRecords = new System.Windows.Forms.ListView();
          this.imageCourse = new System.Windows.Forms.ImageList(this.components);
          this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -95,6 +89,12 @@
          this.statusStrip1 = new System.Windows.Forms.StatusStrip();
          this.filenameLabel = new System.Windows.Forms.ToolStripStatusLabel();
          this.groupBoxOptions = new System.Windows.Forms.GroupBox();
+         this.timeControlLap = new MarioKart64SaveEditor.TimeControl();
+         this.timeControl5th = new MarioKart64SaveEditor.TimeControl();
+         this.timeControl4th = new MarioKart64SaveEditor.TimeControl();
+         this.timeControl3rd = new MarioKart64SaveEditor.TimeControl();
+         this.timeControl2nd = new MarioKart64SaveEditor.TimeControl();
+         this.timeControl1st = new MarioKart64SaveEditor.TimeControl();
          this.groupBoxRecords.SuspendLayout();
          this.menuStrip1.SuspendLayout();
          this.groupBoxTrophies.SuspendLayout();
@@ -140,7 +140,7 @@
          this.groupBoxRecords.Controls.Add(this.listRecords);
          this.groupBoxRecords.Location = new System.Drawing.Point(12, 27);
          this.groupBoxRecords.Name = "groupBoxRecords";
-         this.groupBoxRecords.Size = new System.Drawing.Size(478, 423);
+         this.groupBoxRecords.Size = new System.Drawing.Size(464, 419);
          this.groupBoxRecords.TabIndex = 0;
          this.groupBoxRecords.TabStop = false;
          this.groupBoxRecords.Text = "Records:";
@@ -149,71 +149,11 @@
          // 
          this.labelTrackName.AutoSize = true;
          this.labelTrackName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-         this.labelTrackName.Location = new System.Drawing.Point(211, 20);
+         this.labelTrackName.Location = new System.Drawing.Point(219, 20);
          this.labelTrackName.Name = "labelTrackName";
          this.labelTrackName.Size = new System.Drawing.Size(116, 20);
          this.labelTrackName.TabIndex = 7;
          this.labelTrackName.Text = "Track Records:";
-         // 
-         // timeControlLap
-         // 
-         this.timeControlLap.Enabled = false;
-         this.timeControlLap.Location = new System.Drawing.Point(210, 171);
-         this.timeControlLap.Name = "timeControlLap";
-         this.timeControlLap.Size = new System.Drawing.Size(260, 28);
-         this.timeControlLap.TabIndex = 6;
-         this.timeControlLap.Time = null;
-         this.timeControlLap.Title = "Lap:";
-         // 
-         // timeControl5th
-         // 
-         this.timeControl5th.Enabled = false;
-         this.timeControl5th.Location = new System.Drawing.Point(210, 145);
-         this.timeControl5th.Name = "timeControl5th";
-         this.timeControl5th.Size = new System.Drawing.Size(260, 28);
-         this.timeControl5th.TabIndex = 5;
-         this.timeControl5th.Time = null;
-         this.timeControl5th.Title = "5th:";
-         // 
-         // timeControl4th
-         // 
-         this.timeControl4th.Enabled = false;
-         this.timeControl4th.Location = new System.Drawing.Point(210, 120);
-         this.timeControl4th.Name = "timeControl4th";
-         this.timeControl4th.Size = new System.Drawing.Size(260, 28);
-         this.timeControl4th.TabIndex = 4;
-         this.timeControl4th.Time = null;
-         this.timeControl4th.Title = "4th:";
-         // 
-         // timeControl3rd
-         // 
-         this.timeControl3rd.Enabled = false;
-         this.timeControl3rd.Location = new System.Drawing.Point(210, 95);
-         this.timeControl3rd.Name = "timeControl3rd";
-         this.timeControl3rd.Size = new System.Drawing.Size(260, 28);
-         this.timeControl3rd.TabIndex = 3;
-         this.timeControl3rd.Time = null;
-         this.timeControl3rd.Title = "3rd:";
-         // 
-         // timeControl2nd
-         // 
-         this.timeControl2nd.Enabled = false;
-         this.timeControl2nd.Location = new System.Drawing.Point(210, 69);
-         this.timeControl2nd.Name = "timeControl2nd";
-         this.timeControl2nd.Size = new System.Drawing.Size(260, 28);
-         this.timeControl2nd.TabIndex = 2;
-         this.timeControl2nd.Time = null;
-         this.timeControl2nd.Title = "2nd:";
-         // 
-         // timeControl1st
-         // 
-         this.timeControl1st.Enabled = false;
-         this.timeControl1st.Location = new System.Drawing.Point(210, 43);
-         this.timeControl1st.Name = "timeControl1st";
-         this.timeControl1st.Size = new System.Drawing.Size(260, 28);
-         this.timeControl1st.TabIndex = 1;
-         this.timeControl1st.Time = null;
-         this.timeControl1st.Title = "1st:";
          // 
          // listRecords
          // 
@@ -258,7 +198,7 @@
          this.listRecords.Location = new System.Drawing.Point(7, 20);
          this.listRecords.MultiSelect = false;
          this.listRecords.Name = "listRecords";
-         this.listRecords.Size = new System.Drawing.Size(197, 392);
+         this.listRecords.Size = new System.Drawing.Size(208, 388);
          this.listRecords.SmallImageList = this.imageCourse;
          this.listRecords.TabIndex = 0;
          this.listRecords.TileSize = new System.Drawing.Size(180, 36);
@@ -295,7 +235,7 @@
             this.helpToolStripMenuItem});
          this.menuStrip1.Location = new System.Drawing.Point(0, 0);
          this.menuStrip1.Name = "menuStrip1";
-         this.menuStrip1.Size = new System.Drawing.Size(836, 24);
+         this.menuStrip1.Size = new System.Drawing.Size(822, 24);
          this.menuStrip1.TabIndex = 1;
          this.menuStrip1.Text = "menuStrip1";
          // 
@@ -392,7 +332,7 @@
          this.groupBoxTrophies.Controls.Add(this.pictureBox3);
          this.groupBoxTrophies.Controls.Add(this.pictureBox2);
          this.groupBoxTrophies.Controls.Add(this.pictureBox1);
-         this.groupBoxTrophies.Location = new System.Drawing.Point(496, 27);
+         this.groupBoxTrophies.Location = new System.Drawing.Point(482, 27);
          this.groupBoxTrophies.Name = "groupBoxTrophies";
          this.groupBoxTrophies.Size = new System.Drawing.Size(328, 294);
          this.groupBoxTrophies.TabIndex = 2;
@@ -678,7 +618,7 @@
          this.statusStrip1.Location = new System.Drawing.Point(0, 449);
          this.statusStrip1.Name = "statusStrip1";
          this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
-         this.statusStrip1.Size = new System.Drawing.Size(836, 22);
+         this.statusStrip1.Size = new System.Drawing.Size(822, 22);
          this.statusStrip1.TabIndex = 5;
          this.statusStrip1.Text = "statusStrip1";
          // 
@@ -694,18 +634,78 @@
             | System.Windows.Forms.AnchorStyles.Right)));
          this.groupBoxOptions.Controls.Add(this.label3);
          this.groupBoxOptions.Controls.Add(this.comboAudio);
-         this.groupBoxOptions.Location = new System.Drawing.Point(496, 327);
+         this.groupBoxOptions.Location = new System.Drawing.Point(482, 327);
          this.groupBoxOptions.Name = "groupBoxOptions";
-         this.groupBoxOptions.Size = new System.Drawing.Size(331, 112);
+         this.groupBoxOptions.Size = new System.Drawing.Size(328, 112);
          this.groupBoxOptions.TabIndex = 6;
          this.groupBoxOptions.TabStop = false;
          this.groupBoxOptions.Text = "Options:";
+         // 
+         // timeControlLap
+         // 
+         this.timeControlLap.Enabled = false;
+         this.timeControlLap.Location = new System.Drawing.Point(218, 171);
+         this.timeControlLap.Name = "timeControlLap";
+         this.timeControlLap.Size = new System.Drawing.Size(240, 28);
+         this.timeControlLap.TabIndex = 6;
+         this.timeControlLap.Time = null;
+         this.timeControlLap.Title = "Lap:";
+         // 
+         // timeControl5th
+         // 
+         this.timeControl5th.Enabled = false;
+         this.timeControl5th.Location = new System.Drawing.Point(218, 145);
+         this.timeControl5th.Name = "timeControl5th";
+         this.timeControl5th.Size = new System.Drawing.Size(240, 28);
+         this.timeControl5th.TabIndex = 5;
+         this.timeControl5th.Time = null;
+         this.timeControl5th.Title = "5th:";
+         // 
+         // timeControl4th
+         // 
+         this.timeControl4th.Enabled = false;
+         this.timeControl4th.Location = new System.Drawing.Point(218, 120);
+         this.timeControl4th.Name = "timeControl4th";
+         this.timeControl4th.Size = new System.Drawing.Size(240, 28);
+         this.timeControl4th.TabIndex = 4;
+         this.timeControl4th.Time = null;
+         this.timeControl4th.Title = "4th:";
+         // 
+         // timeControl3rd
+         // 
+         this.timeControl3rd.Enabled = false;
+         this.timeControl3rd.Location = new System.Drawing.Point(218, 95);
+         this.timeControl3rd.Name = "timeControl3rd";
+         this.timeControl3rd.Size = new System.Drawing.Size(240, 28);
+         this.timeControl3rd.TabIndex = 3;
+         this.timeControl3rd.Time = null;
+         this.timeControl3rd.Title = "3rd:";
+         // 
+         // timeControl2nd
+         // 
+         this.timeControl2nd.Enabled = false;
+         this.timeControl2nd.Location = new System.Drawing.Point(218, 69);
+         this.timeControl2nd.Name = "timeControl2nd";
+         this.timeControl2nd.Size = new System.Drawing.Size(240, 28);
+         this.timeControl2nd.TabIndex = 2;
+         this.timeControl2nd.Time = null;
+         this.timeControl2nd.Title = "2nd:";
+         // 
+         // timeControl1st
+         // 
+         this.timeControl1st.Enabled = false;
+         this.timeControl1st.Location = new System.Drawing.Point(218, 43);
+         this.timeControl1st.Name = "timeControl1st";
+         this.timeControl1st.Size = new System.Drawing.Size(240, 28);
+         this.timeControl1st.TabIndex = 1;
+         this.timeControl1st.Time = null;
+         this.timeControl1st.Title = "1st:";
          // 
          // MarioKartSaveForm
          // 
          this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.ClientSize = new System.Drawing.Size(836, 471);
+         this.ClientSize = new System.Drawing.Size(822, 471);
          this.Controls.Add(this.groupBoxOptions);
          this.Controls.Add(this.statusStrip1);
          this.Controls.Add(this.groupBoxTrophies);
