@@ -18,7 +18,7 @@ Open the .eep or .sav file that your emulate created for you. Storage directory 
  * cen64: the file specified with "-eep4k" on the command line
 
 ## Changelog
-0.1: Initial release
+0.1.0: Initial release
 * supports editing track records, cup trophies, audio settings
 * updates all 3 types of checksums used
 
